@@ -1,0 +1,22 @@
+{
+  "npmScope": "wallaby2327",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "angularapp": {
+      "tags": []
+    },
+    "angularapp-e2e": {
+      "tags": [],
+      "implicitDependencies": ["angularapp"]
+    }
+  }
+}
